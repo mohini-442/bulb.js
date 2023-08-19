@@ -1,0 +1,59 @@
+.bulb {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.min-100vh {
+    height: 100vh;
+}
+
+.pt-200 {
+    padding-top: 200px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 11px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 23px;
+    background: purple;
+    border: none;
+}
+
+.on {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+
+}
+.pt-100{
+    padding-top: 100px;
+}
+
+.bulb.on {
+    border-color: yellowgreen;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 10px orange;
+    width: 200px;
+    height: 200px;
+    transition: all 200ms linear;
+}
